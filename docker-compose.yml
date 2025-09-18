@@ -1,10 +1,10 @@
 version: '3.8'
 
 services:
-  api:
+  api4mongodb:
     build: .
     ports:
-      - "8000:8000"
+      - "8001:8001"
     environment:
       - MONGODB_URL=mongodb://mongodb:27017
       - MONGODB_DB=productdb
